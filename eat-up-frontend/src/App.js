@@ -1,11 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./Component/Home/Home";
+import Footer from "./Component/Shared/Footer/Footer";
+import Navbar from "./Component/Shared/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="App">
-        <h2 className='text-rose-500'>Eat Up Test</h2>
-    </div>
+    <>
+        <Navbar></Navbar>
+        <Home></Home>
+        <Footer></Footer>
+    </>
   );
 }
 
