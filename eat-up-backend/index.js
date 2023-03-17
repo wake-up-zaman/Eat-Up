@@ -33,7 +33,7 @@ app.use(express.json());
 // run().catch(console.dir);
 
 app.get('/', (req, res) => {
-  res.send('Hello From Eat Up')
+  res.send('Hello We are from Eat Up')
 })
 
 app.listen(port, () => {
