@@ -3,11 +3,11 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 //routes
-const restaurantRoute=require("./routes/restaurantRoute.js")
-const foodRoute=require("./routes/foodRoute.js")
-const reviewRoute=require("./routes/reviewRoute.js")
-const userRoute=require("./routes/userRoute.js")
-const smsRoute=require("./routes/smsRoute.js")
+const restaurantRoute=require("./src/routes/restaurantRoute.js")
+const foodRoute=require("./src/routes/foodRoute.js")
+const reviewRoute=require("./src/routes/reviewRoute.js")
+const userRoute=require("./src/routes/userRoute.js")
+const smsRoute=require("./src/routes/smsRoute.js")
 
 
 //mongoose
