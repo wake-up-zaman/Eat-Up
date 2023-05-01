@@ -38,9 +38,11 @@ const deleteRestaurant=async (req,res,next)=>{
 
 const getRestaurant=async (req,res,next)=>{
    try{
-       const newRestaurant=await Restaurant.findById(
-           req.params.id
-       );
+    const restaurantId=req.params.restaurantId;
+    const newRestaurant=await Restaurant.findOne({restaurantId:restaurantId});
+      //  const newRestaurant=await Restaurant.findById(
+      //      req.params.id
+      //  );
        res.status(200).json(newRestaurant);
    }
    catch(err){

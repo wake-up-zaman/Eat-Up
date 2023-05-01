@@ -1,5 +1,5 @@
 const express = require('express');
-const { createFood, deleteFood, getAllFood, getFood, getFoodSeats, updateFood }=require("../controllers/foodController.js");
+const { createFood, deleteFood, getAllFood, getFood, updateFood }=require("../controllers/foodController.js");
 
 const router=express.Router();
 

@@ -6,6 +6,9 @@ const port = process.env.PORT || 5000;
 const restaurantRoute=require("./routes/restaurantRoute.js")
 const foodRoute=require("./routes/foodRoute.js")
 const reviewRoute=require("./routes/reviewRoute.js")
+const userRoute=require("./routes/userRoute.js")
+const smsRoute=require("./routes/smsRoute.js")
+
 
 //mongoose
 require('dotenv').config();
@@ -41,7 +44,8 @@ app.options("*", cors(corsConfig));
 app.use("/restaurant",restaurantRoute);
 app.use("/food",foodRoute);
 app.use("/review",reviewRoute);
-
+app.use("/user",userRoute);
+app.use("/sms",smsRoute);
 
 //errorHandling
 app.use((err,req,res,next)=>{

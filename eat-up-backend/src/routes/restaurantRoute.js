@@ -13,7 +13,7 @@ router.put("/:id", updateRestaurant);
 router.delete("/:id", deleteRestaurant);
 
 //GET
-router.get("/:id",getRestaurant);
+router.get("/:restaurantId",getRestaurant);
 
 //GET ALL
 router.get("/", getAllRestaurant);

@@ -1,11 +1,11 @@
 const mongoose=require('mongoose');
 
 const foodSchema=new mongoose.Schema({
-    foodId:{
-        type:String,
-        required:true  
-    },
     restaurantId:{
+        type:String,
+        required:true 
+    },
+    restaurantName:{
         type:String,
         required:true 
     },
@@ -13,29 +13,34 @@ const foodSchema=new mongoose.Schema({
         type:String,
         required:true 
     },
-    name:{
-        type:[String],
-        required:true 
-    },
-    img:{
-        type:[String],
-        required:true 
-    },
-    description:{
+    foodSubCategory:{
         type:String,
         required:true 
-
     },
-    discount:{
+    foodName:{
+        type:[String],
+        required:true 
+    },
+    foodImg:{
+        type:[String],
+        required:true 
+    },
+    foodDes:{
         type:String,
         required:true 
 
     },
     price:{
-        type: Number,
+        type: String,
         required:true 
 
-    }
+    },
+    options: [
+        { 
+          foodName: String,
+          foodPrice:String,
+        }
+      ],
     
 });
 module.exports=mongoose.model("Food",foodSchema)
