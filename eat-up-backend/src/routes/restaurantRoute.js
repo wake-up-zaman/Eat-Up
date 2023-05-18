@@ -18,5 +18,8 @@ router.get("/:restaurantId",getRestaurant);
 //GET ALL
 router.get("/", getAllRestaurant);
 
+//GET ALL Restaurant By location
+router.get("/:location", getAllRestaurantByLocation);
+
 
 module.exports=router;
