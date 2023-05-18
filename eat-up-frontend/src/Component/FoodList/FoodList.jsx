@@ -25,7 +25,7 @@ const FoodList = () => {
     
     return (
         <div>
-            {/* <p>food list:{foodName}</p> */}
+           
         </div>
     );
 };
