@@ -4,7 +4,7 @@ import burger from '../../Images/burger.png';
 const Banner = () => {
     return (
         <>
-            <div className='bg-emerald-50 flex flex-col md:flex-row items-center h-full py-16 gap-5 px-4'>
+            <div className='bg-emerald-50 flex flex-col md:flex-row items-center h-full w-full py-16 gap-5 px-4'>
                 <div className='md:w-1/2 gap-6 flex flex-col justify-center items-center'>
                     <h1 className='text-5xl font-extrabold text-center z-10'>Discover Restaurants that deliver near you.</h1>
                     <div className='w-2/3 relative z-10'>
