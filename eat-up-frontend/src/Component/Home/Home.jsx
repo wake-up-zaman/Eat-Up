@@ -9,8 +9,8 @@ const Home = () => {
         <div>
             <h2>This is Home</h2>
             <Banner></Banner>
-            <Location />
             <Food></Food>
+            <Location />
             <DeliveryProcess></DeliveryProcess>
               
             

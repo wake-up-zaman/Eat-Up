@@ -30,7 +30,7 @@ const DeliveryProcess = () => {
     ]
     return (
        
-        <div className='w-9/12 m-auto'>
+        <div className='w-9/12 m-auto mt-8'>
            
             <h4 className='text-center uppercase sm:text-xl text-lg mb-1 text-bolder'>Our Process</h4>
             <h2 className='text-center sm:uppercase sm:text-2xl text-xl mb-8 text-bolder'>Friendly & Intuitive System</h2>

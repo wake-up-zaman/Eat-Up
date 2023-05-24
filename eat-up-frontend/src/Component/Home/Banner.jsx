@@ -6,7 +6,7 @@ const Banner = () => {
         <>
             <div className='bg-emerald-50 flex flex-col md:flex-row items-center h-full w-full py-16 gap-5 px-4'>
                 <div className='md:w-1/2 gap-6 flex flex-col justify-center items-center'>
-                    <h1 className='text-5xl font-extrabold text-center z-10'>Discover Restaurants that deliver near you.</h1>
+                    <p className='text-center uppercase sm:text-2xl text-4xl mb-4 text-bolder'>Discover Restaurants that deliver near you.</p>
                     <div className='w-2/3 relative z-10'>
                         <input type="search" className="w-full p-4 text-sm text-gray-900 border border-gray-300 rounded-full outline-none" placeholder="Enter Your Delivery Address" required>
                         </input>

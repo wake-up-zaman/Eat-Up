@@ -1,8 +1,9 @@
 import { Route, Routes } from "react-router-dom";
-import FoodList from "./Component/FoodList/FoodList";
 import Home from "./Component/Home/Home";
-import Footer from "./Component/Shared/Footer/Footer";
-import Navbar from "./Component/Shared/Navbar/Navbar";
+import Footer from "./Component/Shared/Footer";
+import Navbar from "./Component/Shared/Navbar";
+import FilterPanel from "./Component/FilterPanel/FilterPanel";
+import './App.css';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       
         <Routes>
           <Route path='/' element={<Home></Home>}></Route>
-          <Route path='/foodList' element={<FoodList></FoodList>}></Route>
+          <Route path='/filterPanel' element={<FilterPanel></FilterPanel>}></Route>
         </Routes>
         <Footer></Footer>
         

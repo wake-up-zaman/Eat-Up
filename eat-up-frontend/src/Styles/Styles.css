@@ -1,0 +1,36 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 80px;
+}
+
+
+.home-panelList-wrap,
+.home-sideBar-wrap,
+.home-list-wrap {
+    overflow-y: auto;
+}
+
+.home-panelList-wrap {
+    display: flex;
+    width: 100%;
+    flex:1
+}
+
+.home-sideBar-wrap {
+    background-color: red;
+    padding: 10px;
+    width: 25%;
+
+}
+
+.home-list-wrap {
+   background-color: blue;
+    padding: 10px;
+    width: 75%;
+    flex: 1;
+
+}

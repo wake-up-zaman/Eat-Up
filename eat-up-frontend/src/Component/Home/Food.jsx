@@ -18,7 +18,7 @@ const Food = () => {
 
     const navigate = useNavigate();
     const handleSearch = () => {
-        navigate("/foodList", { state: { foodName } });
+        navigate("/filterPanel", { state: { foodName } });
     };
 
 
@@ -27,7 +27,7 @@ const Food = () => {
             <h2 className='text-center uppercase sm:text-2xl text-xl mb-4 text-bolder'>Explore The Most Popular Dishes</h2>
             <div className="grid sm:grid-rows-2 sm:grid-cols-5 gap-2">
                 <div
-                    onMouseEnter={() => setFoodName("pizza")}
+                    onMouseEnter={() => setFoodName("Pizza")}
                     onMouseLeave={() => setFoodName("null")}
                     className="row-span-full col-span-2 flex rounded-lg group relative cursor-pointer items-center justify-center  overflow-hidden transition-shadow">
                     <img className="h-full w-full object-cover transition-transform duration-500" src={pizza} alt="" />
@@ -38,7 +38,7 @@ const Food = () => {
                     </div>
                 </div>
                 <div
-                    onMouseEnter={() => setFoodName("Fried chicken")}
+                    onMouseEnter={() => setFoodName("Chicken")}
                     onMouseLeave={() => setFoodName("null")}
                     className="flex rounded-lg group relative cursor-pointer items-center justify-center  overflow-hidden transition-shadow">
 
@@ -51,7 +51,7 @@ const Food = () => {
                     </div>
                 </div>
                 <div
-                    onMouseEnter={() => setFoodName("biryani")}
+                    onMouseEnter={() => setFoodName("Biryani")}
                     onMouseLeave={() => setFoodName("null")}
 
                     className=" row-span-2 col-span-1 flex rounded-lg group relative cursor-pointer items-center justify-center  overflow-hidden transition-shadow">
@@ -132,7 +132,7 @@ const Food = () => {
                     </div>
                 </div>
                 <div
-                    onMouseEnter={() => setFoodName("Chow Mein")}
+                    onMouseEnter={() => setFoodName("ChowMein")}
                     onMouseLeave={() => setFoodName("null")}
                     className="flex rounded-lg group relative cursor-pointer items-center justify-center  overflow-hidden transition-shadow">
                     <img className="hidden sm:inline h-full w-full object-cover transition-transform duration-500" src={chowMein} alt="" />

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../../../Images/logo.png';
+import logo from '../../Images/logo.png';
 import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
 
-    <div className='shadow-xl shadow-teal-400/20 w-full fixed top-0 left-0 md:px-0 px-8 bg-white z-50'>
+    <div className='shadow-xl shadow-teal-400/20 w-full fixed top-0 left-0 md:px-0 px-8 bg-white '>
         <div className='flex md:w-9/12 m-auto items-center justify-between bg-white py-1'>
             <Link to='/'><img src={logo} className='h-10' alt='Logo'/></Link>
       
