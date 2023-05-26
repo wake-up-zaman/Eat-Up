@@ -23,7 +23,7 @@ const Food = () => {
 
 
     return (
-        <section className="mb-1 sm:p-16 p-3">
+        <section className="mb-1 sm:p-3 lg:p-10 ">
             <h2 className='text-center uppercase sm:text-2xl text-xl mb-4 text-bolder'>Explore The Most Popular Dishes</h2>
             <div className="grid sm:grid-rows-2 sm:grid-cols-5 gap-2">
                 <div

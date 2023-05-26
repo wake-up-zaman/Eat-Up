@@ -33,9 +33,9 @@ export default Location = () => {
                 {
                     places.map((place, index) => (
                         <div onClick={()=>handleLocation(place)} className="group lg:w-1/6 md:w-1/4 w-1/2 aspect-square relative p-2 lg:m-0 overflow-hidden cursor-pointer">
-                            <img src={img[index]} alt="location image" className="w-full h-full object-cover" />
+                            <img src={img[index]} alt="location image" className="w-full h-full object-cover rounded-lg" />
                             <h1 className="absolute text-rose-400 font-extrabold text-9xl bottom-2 -left-32 group-hover:left-2 duration-500 ease-out">{place[0]}</h1>
-                            <h1 className='absolute bottom-2 text-white font-bold text-3xl'>{place}</h1>
+                            <h1 className='absolute bottom-2 text-white px-2 font-bold text-3xl bg-black'>{place}</h1>
                         </div>
                     ))
                 }

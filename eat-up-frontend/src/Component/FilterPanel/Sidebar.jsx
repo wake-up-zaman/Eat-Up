@@ -62,12 +62,10 @@ const Sidebar = (
                     </div>
 
                 }
-
-
             </div>
 
             <div className='mt-5'>
-                <p className=' text-teal-500 font-bold'>Restaurant's Price Range</p>
+                <p className=' text-teal-500 font-bold'>Food Price Range</p>
                 <p className='w-full bg-slate-300 h-0.5 mb-2 mt-2'></p>
                 <PriceSlider 
                 value={value} 
